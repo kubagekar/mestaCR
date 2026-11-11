@@ -25,7 +25,7 @@ function zobrazChybu(zprava) {
 // Inicializace mapy
 const mapa = L.map("mapa").setView(STRED_CR, VYCHOZI_ZOOM);
 
-L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
   attribution:
     '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
