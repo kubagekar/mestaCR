@@ -24,6 +24,18 @@
         "type": "Point",
         "coordinates": [14.4378, 50.0755]
       }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "nazev": "Hranice",
+        "popisek": "Hranice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.5479639, 17.7346917]
+      }
     }
   ]
 }
